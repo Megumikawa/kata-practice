@@ -7,11 +7,3 @@ function even_or_odd(number) {
     return "Odd";
   }
 }
-
-// function even_orodd(number) {
-//   if( number % 2 == 0) {
-//     return "Even";
-//   } else {
-//     return "Odd";
-//   }
-// }
