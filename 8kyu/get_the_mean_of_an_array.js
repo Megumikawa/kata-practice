@@ -13,3 +13,12 @@ function getAverage(marks) {
   }
   return Math.floor(sum/marks.length);
 }
+
+
+// Best answer
+function getAverage(marks){
+  return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+}
+
+// Another answer
+const getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length);
