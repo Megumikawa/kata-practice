@@ -6,3 +6,15 @@
 // time = 3 ----> litres = 1
 // time = 6.7---> litres = 3
 // time = 11.8--> litres = 5
+
+let litres = (time) => {
+  return Math.floor(time/2)
+}
+
+//Another answer
+const litres = time => Math.floor(time * 0.5);
+
+//Another answer
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
