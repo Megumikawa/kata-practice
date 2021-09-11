@@ -11,3 +11,31 @@
 // "Indivisibilities" -> 2 # 'i' occurs seven times and 's' occurs twice
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
+
+
+
+function duplicateCount(text) {
+  let lower = text.toLowerCase();
+  let count = 0;
+  let used = [];
+
+  lower.split('').forEach((letter) => {
+    if(!used.includes(letter) && (lower.split(letter).length -1) > 1) {
+      count++;
+      used.push(letter);
+    }
+  })
+  return count;
+}
+
+// Another answer
+function duplicateCount(text) {
+  return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+}
+
+// Another answer
+function duplicateCount(text){
+  return text.toLowerCase().split('').filter(function(val, i, arr){
+    return arr.indexOf(val) !== i && arr.lastIndexOf(val) === i;
+  }).length;
+}
