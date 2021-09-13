@@ -8,6 +8,21 @@
 
 
 
-// function findNeedle(haystack) {
 
-// }
+function findNeedle(haystack) {
+  return "found the needle at position" + haystack.indesOf("needle");
+}
+
+
+// Best answer
+const findNeedle = haystack => `found the needle at position ${haystack.indexOf('needle')}`;
+
+
+
+// other answer
+function findNeedle(array) {
+  for (var i=0; i<array.length; i++){
+    if (array[i] === 'needle')
+      return 'found the needle at position ' + i;
+  }
+}
