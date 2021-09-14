@@ -5,8 +5,14 @@
 // Sam Harris => S.H
 // Patrick Feeney => P.F
 
+
 function abbrevName(name){
+  let nameArray = name.split(" ");
+  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase()
+}
 
-  // code away
 
+// Another answer
+function abbrevName(name){
+  return name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.');
 }
