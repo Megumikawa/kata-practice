@@ -13,5 +13,18 @@
 // "String.prototype.toAlternatingCase".toAlternatingCase() === "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
 
 String.prototype.toAlternatingCase = function () {
-  // Define your method here :)
+  let str = '';
+  for(let i = 0; i < this.length; i++) {
+    if(this[i] == this[i].toUpperCase()) {
+      str += this[i].toLowerCase();
+    } else {
+      str += this[i].toUpperCase();
+    }
+  }
+  return str;
+}
+
+// Another answer
+String.prototype.toA;ternatingCase = function() {
+  return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')
 }
