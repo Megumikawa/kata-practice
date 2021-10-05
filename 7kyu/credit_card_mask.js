@@ -8,7 +8,15 @@
 
 
 function maskify(cc) {
-  
+  let maskedString = "";
+  for(let i = 0; i < cc.length; i++) {
+    if(i < cc.length - 4){
+      maskedString = maskedString + "#"
+    } else {
+    maskedString = maskedString + cc.charAt(i)
+    }
+  }
+  return maskedString
 }
 
 
@@ -16,3 +24,5 @@ function maskify(cc) {
 function maskify(cc) {
   return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
 }
+
+
