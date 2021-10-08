@@ -11,7 +11,7 @@
 
 function duplicateEncode(word) {
   let unique = '';
-  word = word.toLOWERCASE();
+  word = word.toLowerCase();
   for(let i = 0; i < word.length; i++) {
     if(word.lastIndexOf(word[i]) == word.indecOf(word[i])) {
       unique += '(';
