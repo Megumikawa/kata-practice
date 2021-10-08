@@ -13,7 +13,7 @@ function duplicateEncode(word) {
   let unique = '';
   word = word.toLowerCase();
   for(let i = 0; i < word.length; i++) {
-    if(word.lastIndexOf(word[i]) == word.indecOf(word[i])) {
+    if(word.lastIndexOf(word[i]) == word.indexOf(word[i])) {
       unique += '(';
     } else {
       unique += ')';
