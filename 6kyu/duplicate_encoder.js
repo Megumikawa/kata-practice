@@ -16,7 +16,7 @@ function duplicateEncode(word) {
     if(word.lastIndexOf(word[i]) == word.indecOf(word[i])) {
       unique += '(';
     } else {
-      unique =+ ')';
+      unique += ')';
     }
   }
   return unique;
