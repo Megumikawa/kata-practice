@@ -7,3 +7,37 @@
 // "recede"   =>  "()()()"
 // "Success"  =>  ")())())"
 // "(( @"     =>  "))((" 
+
+
+function duplicateEncode(word) {
+  let unique = '';
+  word = word.toLOWERCASE();
+  for(let i = 0; i < word.length; i++) {
+    if(word.lastIndexOf(word[i]) == word.indecOf(word[i])) {
+      unique += '(';
+    } else {
+      unique =+ ')';
+    }
+  }
+  return unique;
+}
+
+
+// another answer
+
+function duplicateEncode(word) {
+  word = word.toLowerCase();
+  return word.replace(/./g, m => word.indecOf(m) == word.lastIndecOf(m) ? '(' : ')');
+}
+
+
+// Best answer
+function duplicateEncode(word) {
+  return word
+    .toLowerCase()
+    .split('')
+    .map(function(a, i, w){
+      return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
+    })
+    .join('')
+}
