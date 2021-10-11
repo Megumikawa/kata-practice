@@ -10,8 +10,6 @@
 // "605"  --> 605
 // "1405" --> 1405
 // "-7" --> -7
-
 var stringToNumber = function(str){
-  // put your code here
-  return null;
+  return parseInt(str)
 }
