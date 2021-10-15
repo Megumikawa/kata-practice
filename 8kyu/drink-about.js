@@ -19,6 +19,25 @@
 // 30 --> "drink whisky"
 
 
-function peopleWithAgeDrink(old) {
-  return ;
+function peopleWithAgeDrink(age) {
+  let message = ""
+  if(age < 14) {
+    message = "drink toddy"
+  } else if(age < 18) {
+    message = "drink coke"
+  } else if(age < 21) {
+    message = "drink beer"
+  } else if(age >= 21) {
+    message = "drink whisky"
+  } 
+  return message;
 }
+
+// Best answer
+const peopleWithAgeDrink = (age) =>
+  age < 14 ? "drink toddy" :
+  age < 18 ? "drink coke" :
+  age < 21 ? "drink beer" : "drink whisky"
+
+// Another answer
+const peopleWithAgeDrink = old => 'drink ' + (old < 14 ? 'toddy' : old < 18 ? 'coke' : old < 21 ? 'beer' : 'whisky')
