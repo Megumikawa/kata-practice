@@ -7,5 +7,16 @@
 // n=-5, m=5:  0
 
 function paperwork(n, m) {
-  
+  let paperwork = ''
+  if(n < 0 || m < 0){
+    paperwork = 0
+  }  else {
+    paperwork = n * m
+  }
+  return paperwork
+}
+
+// Best answer
+function paperwork(n, m) {
+  return n < 0 || m < 0 ? 0 : n * m;
 }
