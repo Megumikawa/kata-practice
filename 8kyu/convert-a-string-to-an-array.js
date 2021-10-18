@@ -4,8 +4,10 @@
 
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
-function stringToArray(string){
 
-	// code code code
-
+function stringToArray(stirng) {
+	return String.split(' ')
 }
+
+// Another answer
+const stringToArray = string => string.split(' ');
