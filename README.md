@@ -19,4 +19,3 @@
 
 
 ### :link: [My Profile of Codewars](https://www.codewars.com/users/Megumikawa)
-
