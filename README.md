@@ -2,8 +2,8 @@
 
 ### This is morning routine of JavaScript practice from Codewars.
 
-| <br>
-|_______ 5kyu <br>
+
+ _______ 5kyu <br>
 | <br>
 |_______ 6kyu <br>
 |<br>
