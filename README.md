@@ -1,16 +1,16 @@
-# Daily JavaScript Practice :woman_technologist:
+# :woman_technologist:Daily JavaScript Practice 
 
 ### This is morning routine of JavaScript practice from Codewars.
 
- ____<br>
+
 | <br>
-|____ 5kyu <br>
+|------ 5kyu <br>
 | <br>
-|____ 6kyu <br>
+|------ 6kyu <br>
 |<br>
-|____ 7kyu<br>
+|------ 7kyu<br>
 |<br>
-|____ 8kyu<br>
+|------ 8kyu<br>
 
 
 ### [My Profile of Codewars](https://www.codewars.com/users/Megumikawa)
