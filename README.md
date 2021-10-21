@@ -3,6 +3,9 @@
 ### This is morning routine of JavaScript practice from Codewars.
 
 
+
+### Kata level 
+
  _______ 5kyu <br>
 | <br>
 |_______ 6kyu <br>
