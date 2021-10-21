@@ -1,4 +1,4 @@
-# :woman_technologist:Daily JavaScript Practice 
+# :woman_technologist: Daily JavaScript Practice 
 
 #### This is morning routine of JavaScript practice from Codewars.
 
