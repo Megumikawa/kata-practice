@@ -4,7 +4,7 @@
 
 
 
-### Kata level 
+### :star2: Level 
 
  _______ 5kyu <br>
 | <br>
@@ -16,5 +16,5 @@
 
 
 
-### [My Profile of Codewars](https://www.codewars.com/users/Megumikawa)
+### :link: [My Profile of Codewars](https://www.codewars.com/users/Megumikawa)
 
